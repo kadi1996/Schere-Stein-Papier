@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  sass --watch assets/scss/main.scss assets/css/style.css -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papel Piedra Tijeras</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Tijeras Piedra Papel</h1>
+            <p>¿Cuántas rondas?</p>
+            <form action="">
+                <input type="radio" id="rounds5" name="rounds" value="5" checked>
+                <label for="">5</label>
+                <input type="radio" id="rounds10" name="rounds" value="10">
+                <label for="">10</label>
+                <input type="radio" id="rounds15" name="rounds" value="15">
+                <label for="">15</label>
+                <input type="radio" id="rounds20" name="rounds" value="20">
+                <label for="">20</label>
+            </form>
+        </div>
+        <div>
+            <label for="">User</label>
+            <h2><span id="resultHuman">0</span>:<span id="resultComputer">0</span></h2>
+            <label for="">Computer</label>
+        </div>
+        <article class="emojis">
+            <h3 id="h3">Jugemos!</h3>
+            <div>
+                <img src="assets/img/icons8-right-facing-fist-48.png" alt="Stein" id="r" onclick="submit(r)">
+            </div>
+            <div>
+                <img src="assets/img/icons8-hand-scissors-skin-type-5-48.png" alt="Schere" id="s" onclick="submit(s)">
+            </div>
+            <div>
+                <img src="assets/img/icons8-hand-48.png" alt="Papier" id="p" onclick="submit(p)">
+            </div>
+        </article>
+        <div id="foot">
+            <p id="message">Haz tu jugada</p>
+            <a href="#" id="atag" onclick="nochmal()">Iniciar de nuevo</a>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

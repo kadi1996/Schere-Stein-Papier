@@ -1,0 +1,65 @@
+/* 
+##################################
+        GENERAL
+##################################
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: rgb(129, 129, 226);
+}
+
+
+section {
+	margin: 20%;
+	padding: 2%;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.43);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(0px);
+	-webkit-backdrop-filter: blur(0px);
+	border: 1px solid rgba(0, 0, 0, 0.77);
+}
+
+.emojis {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 15px 0;
+}
+
+#r:hover {
+	opacity: 0.5
+}
+
+#p:hover {
+	opacity: 0.5
+}
+
+#s:hover {
+	opacity: 0.5
+}
+
+#atag {
+	text-decoration: none;
+	color: #000;
+}
+
+#atag:hover {
+	text-shadow: 0.5px 0.5px #000;
+	text-decoration: underline;
+}
+
+#message {
+	margin-bottom: 15px;
+}
